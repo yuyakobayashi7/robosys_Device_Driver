@@ -6,6 +6,7 @@ https://youtu.be/NjgM8Sm-iXM
 
 モータを使用し、GPIOのオンオフを切り替えることで擬似的にpwm制御で回転数を落とすモードを作った。
 動画ではモータの回転音での判別は難しいが、LEDの点灯で今どちらのモードなのかが分かるようになっている
+モータを起動させるための起電力が若干不足している
 
 # Licence
 This repository is licensed under the GPLv3 license
