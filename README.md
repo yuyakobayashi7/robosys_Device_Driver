@@ -17,3 +17,4 @@ This repository is licensed under the GPLv3 license
 # References
 https://github.com/rikusekiuchi/led_devicce_driver_2/blob/master/myled.c
 
+複数のGPIOの制御に一部コードを使用しています。
