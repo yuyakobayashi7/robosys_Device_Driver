@@ -1,3 +1,6 @@
+# COPYING
+Copyright (C) 1994-1995, 1997, 1999-2020 Free Software Foundation, Inc.
+
 # robosys_device_driver
 This is a device driver for Raspberry Pi4
 
