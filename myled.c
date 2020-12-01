@@ -1,3 +1,12 @@
+/*
+#### Reference ####
+fukuharayoshitaka
+https://github.com/fukuharayoshitaka
+
+led_device_driver-N16C1106
+https://github.com/fukuharayoshitaka/led_device_driver-N16C1106
+*/
+
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/cdev.h>
