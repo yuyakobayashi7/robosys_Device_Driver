@@ -38,3 +38,6 @@ This repository is licensed under the GPLv3 license
 https://github.com/rikusekiuchi/led_devicce_driver_2/blob/master/myled.c
 
 複数のGPIOの制御に一部コードを使用しています。
+
+# 参考にしたコードとの違い
+モータを採用し、擬似的なpwm制御での回転数を落とすモードを実装した点。
