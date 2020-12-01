@@ -1,4 +1,6 @@
 /*
+Copyright (C) 1994-1995, 1997, 1999-2020 Free Software Foundation, Inc.
+
 #### Reference ####
 fukuharayoshitaka
 https://github.com/fukuharayoshitaka
