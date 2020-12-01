@@ -9,7 +9,7 @@ GPIOの出力を止めるモード。
 モータは停止、LEDは消灯する。
 
 echo 1 > /deev/myled0
-GPIOを出力にする。
+使っているGPIOを3つとも出力にするモード。
 モータが全回転し、LEDは2つ点灯する。
 
 echo 2 > /deev/myled0 
