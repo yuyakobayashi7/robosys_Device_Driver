@@ -4,12 +4,20 @@ This is a device driver for Raspberry Pi4
 # Demonstration
 https://youtu.be/NjgM8Sm-iXM
 
-モータを使用し、GPIOのオンオフを切り替えることで擬似的にpwm制御で回転数を落とすモードを作った。
+echo 0 > /deev/myled0
+GPIOの出力を止めるモード。
+モータは停止、LEDは消灯する。
+
+echo 1 > /deev/myled0
+GPIOを出力にする。
+モータが全回転し、LEDは2つ点灯する。
+
+echo 2 > /deev/myled0 
+GPIOのオンオフを切り替えることで擬似的にpwm制御でモータの回転数を落とすモード。
 約13秒だけ動作するようにしてある。
 
 動画ではモータの回転音での判別は難しいが、LEDの点灯で今どちらのモードなのかが分かるようになっている。
 
-モータを起動させるための起電力が若干不足している
 
 # Photo
 ![20954](https://user-images.githubusercontent.com/54259047/100732836-abb7c280-3410-11eb-8918-47ab0add1773.jpg)
