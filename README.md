@@ -7,6 +7,12 @@ This is a device driver for Raspberry Pi4
 # Demonstration
 https://youtu.be/NjgM8Sm-iXM
 
+動画内では, 1 > 2 > 1 > 0  と操作している。
+
+動画ではモータの回転音での判別が難しいが、LEDの点灯で今どのモードなのかが分かるようになっている。
+
+# Explanation
+
 echo 0 > /deev/myled0
 GPIOの出力を止めるモード。
 モータは停止、LEDは消灯する。
@@ -18,10 +24,6 @@ echo 1 > /deev/myled0
 echo 2 > /deev/myled0 
 GPIOのオンオフを切り替えることで擬似的なpwm制御でモータの回転数を落とすモード。
 約13秒で停止する。
-
-動画内では, 1 > 2 > 1 > 0  と操作している。
-
-動画ではモータの回転音での判別が難しいが、LEDの点灯で今どのモードなのかが分かるようになっている。
 
 
 # Photo
@@ -35,6 +37,7 @@ GPIOのオンオフを切り替えることで擬似的なpwm制御でモータ�
 This repository is licensed under the GPLv3 license
 
 # References
+
 https://github.com/rikusekiuchi/led_devicce_driver_2/blob/master/myled.c
 
 複数のGPIOの制御に一部コードを使用しています。
