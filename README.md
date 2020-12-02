@@ -2,7 +2,8 @@
 Copyright (C) 1994-1995, 1997, 1999-2020 Free Software Foundation, Inc.
 
 # robosys_device_driver
-This is a device driver for Raspberry Pi4
+ロボットシステム学の課題で作ったものです。
+LEDを点灯、消灯するデバイスドライバーを作成し、それに手を加えたものです。
 
 # Demonstration
 https://youtu.be/NjgM8Sm-iXM
@@ -11,7 +12,7 @@ https://youtu.be/NjgM8Sm-iXM
 
 動画ではモータの回転音での判別が難しいが、LEDの点灯で今どのモードなのかが分かるようになっている。
 
-# Explanation
+# 説明
 
 echo 0 > /deev/myled0
 GPIOの出力を止めるモード。
@@ -27,7 +28,7 @@ GPIOのオンオフを切り替えることでpwm制御でモータの回転数�
 duty比は70%となっている
 
 
-# Photo
+# 写真
 ![20954](https://user-images.githubusercontent.com/54259047/100732836-abb7c280-3410-11eb-8918-47ab0add1773.jpg)
 
 # Licence
