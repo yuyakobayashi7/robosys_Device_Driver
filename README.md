@@ -22,8 +22,9 @@ echo 1 > /deev/myled0
 モータが全回転し、LEDは2つ点灯する。
 
 echo 2 > /deev/myled0 
-GPIOのオンオフを切り替えることで擬似的なpwm制御でモータの回転数を落とすモード。
+GPIOのオンオフを切り替えることでpwm制御でモータの回転数を落とすモード。
 約13秒で停止する。
+duty比は70%となっている
 
 
 # Photo
@@ -39,4 +40,4 @@ https://github.com/rikusekiuchi/led_devicce_driver_2/blob/master/myled.c
 複数のGPIOの制御に一部コードを使用しています。
 
 # 参考にしたコードとの違い
-モータを採用し、擬似的なpwm制御での回転数を落とすモードを実装した点。
+モータを採用し、pwm制御で回転数を落とすモードを実装した点。
