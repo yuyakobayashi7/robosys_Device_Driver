@@ -12,7 +12,7 @@ LEDを点灯、消灯するデバイスドライバーを作成し、それに�
     $ sudo insmod myled.ko
     $ sudo chmod 666 /dev/myled0
 
-# Demonstration
+# 映像
 https://youtu.be/NjgM8Sm-iXM
 
 動画内では, 1 > 2 > 1 > 0  と操作している。
