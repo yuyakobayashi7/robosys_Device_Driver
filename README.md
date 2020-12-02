@@ -1,5 +1,5 @@
 # COPYING
-Copyright (C) 1994-1995, 1997, 1999-2020 Free Software Foundation, Inc.
+(c) 2020 RyuichiUeda and YuyaKobayashi and fukuharayoshitaka
 
 # robosys_device_driver
 ロボットシステム学の課題で作ったものです。
