@@ -1,11 +1,11 @@
+// SPDX-License-Identifier: GPL-3.0
+// (c) 2020 RyuichiUeda and YuyaKobayashi and fukuharayoshitaka
 /*
-Copyright (C) 1994-1995, 1997, 1999-2020 Free Software Foundation, Inc.
 
 #### Reference ####
 fukuharayoshitaka
 https://github.com/fukuharayoshitaka
 
-led_device_driver-N16C1106
 https://github.com/fukuharayoshitaka/led_device_driver-N16C1106
 */
 
