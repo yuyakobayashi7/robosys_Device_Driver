@@ -17,7 +17,7 @@ https://github.com/fukuharayoshitaka/led_device_driver-N16C1106
 #include <linux/io.h>
 #include<linux/delay.h>
 
-MODULE_AUTHOR("Yuya Kobayashi and Ryuichi Ueda");
+MODULE_AUTHOR("Ryuichi Ueda and YuyaKobayashi and fukuharayoshitaka");
 MODULE_DESCRIPTION("driver for LED and Moter control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.0.1");
