@@ -1,6 +1,5 @@
 /*
-License: http://www.gnu.org/licenses/gpl.html GPL version 2 or higher
-Copyright (C) 1994-1995, 1997, 1999-2020 Free Software Foundation, Inc.
+# SPDX-License-Identifier: GPL-3.0
 */
 
 obj-m := myled.o
