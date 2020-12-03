@@ -1,4 +1,4 @@
-# COPYING
+# CONTRIBUTOR
 (c) 2020 RyuichiUeda and YuyaKobayashi and fukuharayoshitaka
 
 # robosys_device_driver
@@ -21,18 +21,21 @@ https://youtu.be/NjgM8Sm-iXM
 
 # 説明
 
-echo 0 > /deev/myled0
 GPIOの出力を止めるモード。
 モータは停止、LEDは消灯する。
 
-echo 1 > /deev/myled0
+    $ echo 0 > /deev/myled0
+
+
 使っているGPIOを3つとも出力にするモード。
 モータが全回転し、LEDは2つ点灯する。
 
-echo 2 > /deev/myled0 
+    & echo 1 > /deev/myled0
+
 GPIOのオンオフを切り替えることでpwm制御でモータの回転数を落とすモード。
-約13秒で停止する。
-duty比は70%となっている
+約13秒で停止する。duty比は70%となっている
+
+    $ echo 2 > /deev/myled0 
 
 
 # 写真
