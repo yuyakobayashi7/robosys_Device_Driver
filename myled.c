@@ -47,8 +47,8 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 		gpio_base[7] = 1 << 24;
 	}
 	else if (c == '2'){//pwm
-                for (i=0;i <= 10; i++){
-	        	gpio_base[7] = 1 << 26;
+		for (i=0;i <= 10; i++){
+	       		gpio_base[7] = 1 << 26;
 			gpio_base[10] = 1 << 24;
 			gpio_base[7] = 1 << 25;
                        	ssleep(1.0);
@@ -56,7 +56,7 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
                         ssleep(0.3);
 		}
 	}
-        return 1;
+	return 1;
 }
 
 static struct file_operations led_fops = {
